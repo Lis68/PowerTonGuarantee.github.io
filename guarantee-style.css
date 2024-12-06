@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+.body {
+    margin: 0;
+}
+.header-guarantee {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+}
+.guaratee-main-text, .subheading {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px 200px;
+}
+.subheading {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    margin-bottom: 40px;
+}
+.guaratee-main-text h2 {
+    margin-bottom: 40px; 
+}
+.list-1, .list-2, .list-3, .list-4,
+.list-5, .list-6 {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    margin-bottom: 40px;
+}
+.footer-guarantee p {
+    padding: 30px 30px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    margin-bottom: 40px;
+}
+.list-4 ul {
+    padding-left: 15px;
+    list-style-type:square
+}
+.list-4 li{
+    padding-bottom: 10px;
+}
+@media screen and (max-width:863px) {
+    .header-guarantee {
+        font-size: 80%;
+    }
+    .guaratee-main-text {
+        margin: 20px 150px;
+    }
+    .subheading {
+        margin: 20px 150px;
+    }
+    .guaratee-main-text h2 {
+        font-size: 120%;
+    } 
+    .guaratee-main-text h3 {
+        font-size: 100%;
+    }
+    .guaratee-main-text p {
+        font-size: 90%;
+    }
+    ul {
+        font-size: 90%;
+    }
+    .subheading {
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:667px) {
+    .header-guarantee {
+        font-size: 70%;
+    }
+    .guaratee-main-text {
+        margin: 20px 130px;
+    }
+    .subheading {
+        margin: 20px 130px;
+    }
+    .guaratee-main-text h2 {
+        font-size: 110%;
+    } 
+    .guaratee-main-text h3 {
+        font-size: 90%;
+    }
+    .guaratee-main-text p {
+        font-size: 80%;
+    }
+    ul {
+        font-size: 80%;
+    }
+    .subheading {
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:578px) {
+    .header-guarantee {
+        font-size: 60%;
+    }
+    .guaratee-main-text {
+        margin: 20px 100px;
+    }
+    .subheading {
+        margin: 20px 100px;
+    }
+    .guaratee-main-text h2 {
+        font-size: 100%;
+    } 
+    .guaratee-main-text h3 {
+        font-size: 80%;
+    }
+    .guaratee-main-text p {
+        font-size: 70%;
+    }
+    ul {
+        font-size: 70%;
+    }
+    .subheading {
+        font-size: 70%;
+    }
+}
+@media screen and (max-width:467px) {
+    .header-guarantee {
+        font-size: 50%;
+    }
+    .guaratee-main-text {
+        margin: 20px 70px;
+    }
+    .subheading {
+        margin: 20px 70px;
+    }
+    .guaratee-main-text h2 {
+        font-size: 90%;
+    } 
+    .guaratee-main-text h3 {
+        font-size: 70%;
+    }
+    .guaratee-main-text p {
+        font-size: 60%;
+    }
+    ul {
+        font-size: 60%;
+    }
+    .subheading {
+        font-size: 60%;
+    }
+}
+@media screen and (max-width:385px) {
+    .header-guarantee {
+        font-size: 40%;
+    }
+    .guaratee-main-text {
+        margin: 15px 50px;
+    }
+    .subheading {
+        margin: 15px 50px;
+    }
+    .guaratee-main-text h2 {
+        font-size: 80%;
+        margin-bottom: 20px;
+    } 
+    .guaratee-main-text h3 {
+        font-size: 60%;
+    }
+    .guaratee-main-text p {
+        font-size: 50%;
+    }
+    ul {
+        font-size: 50%;
+    }
+    .subheading {
+        font-size: 50%;
+        padding: 10px 15px;
+    }
+    .list-1, .list-2, .list-3, 
+    .list-4, .list-5, .list-6 {
+        padding: 10px 15px;
+    }
+    .list-6 {
+        margin-bottom: 20px;
+    }
+    .footer-guarantee p {
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width:274px) {
+    .header-guarantee {
+        font-size: 40%;
+    }
+    .guaratee-main-text {
+        margin: 15px 30px;
+    }
+    .subheading {
+        margin: 15px 30px;
+    }
+    .guaratee-main-text h2 {
+        font-size: 70%;
+    } 
+    .guaratee-main-text h3 {
+        font-size: 60%;
+    }
+    .guaratee-main-text p {
+        font-size: 50%;
+    }
+    ul {
+        font-size: 50%;
+    }
+    .subheading {
+        font-size: 50%;
+    }
+}
+@media screen and (max-width:204px) {
+    .header-guarantee {
+        font-size: 30%;
+    }
+    .guaratee-main-text h2 {
+        font-size: 60%;
+    } 
+    .guaratee-main-text h3 {
+        font-size: 50%;
+    } 
+    .guaratee-main-text p {
+        font-size: 40%;
+    } 
+}
+
